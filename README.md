@@ -1,2 +1,2 @@
 # learn_react_native
-Learning React Native
+Version control for learning React Native

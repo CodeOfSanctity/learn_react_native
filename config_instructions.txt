@@ -1,0 +1,11 @@
+Setup
+npm install -g expo-cli
+
+Create new project
+expo init AwesomeProject
+
+cd AwesomeProject
+npm start # you can also use: expo start
+
+Running Android
+npm run android
