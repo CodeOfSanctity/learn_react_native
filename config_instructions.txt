@@ -9,3 +9,6 @@ npm start # you can also use: expo start
 
 Running Android
 npm run android
+
+Upgrade app sdk
+expo upgrade

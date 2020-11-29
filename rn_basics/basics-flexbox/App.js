@@ -5,10 +5,11 @@ export default function App() {
   return (
     // flow direction - 'row' 'row reverse' default: 'column'
     // alignItems - default: 'stretch'
+    // flex number is for children along main axis, relative number
     <View style={{ 
         padding: 50, 
         flexDirection: 'row', 
-        width: '80%', 
+        width: '100%', 
         height: 300,
         justifyContent: 'space-between',
         alignItems: 'center'
@@ -28,6 +29,7 @@ export default function App() {
       <View
         style={{
           backgroundColor: 'blue',
+          flex: 1,
           width: 100,
           height: 100,
           justifyContent: 'center',
@@ -39,6 +41,7 @@ export default function App() {
       <View
         style={{
           backgroundColor: 'green',
+          flex: 1,
           width: 100,
           height: 100,
           justifyContent: 'center',
